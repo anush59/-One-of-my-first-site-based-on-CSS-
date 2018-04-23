@@ -1,0 +1,175 @@
+body{
+	background-color: #3C3C3C;
+}
+.img{
+	width: 50px;
+	height: 30px;
+	display: inline-block;
+	background-color: #6F6F6F;
+}
+#topbar{
+	display: inline-block;
+	margin: 0 350px;
+    margin-right: -300px;
+}
+#topbar > ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+#topbar li:hover ul{
+	display: block;
+}
+#topbar > ul > li > ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	display: none;
+}
+#topbar	> ul > li > a{
+	display: block;
+	width: 60px;
+	background-color: #F8F8F8;
+	color: #515151;
+	text-decoration: none;
+	padding: 40px 70px;
+}
+#topbar > ul > li > ul > li > a{
+	display: block;
+	text-decoration: none;
+}
+
+#topbar > ul >li{
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: 100px;
+	background-color: 
+}
+.container{
+	margin: 8px 130px;
+	background-color: #F8F8F8;
+}
+header{
+	width: 120px;
+	margin-bottom: -46px;
+}
+#topbar > ul > li > a:hover{
+	background-color: #6F6F6F;
+}
+#pic{
+	height: 200px;
+	width: 300px;
+}
+.pic{
+	margin: 0 130px;
+}
+#pic{
+	width: 100%;
+	height: 100%;
+}
+.big{
+	background-color: #F8F8F8;
+	margin: 0 130px;
+/*	height: 400px;*/
+}
+.text{
+	text-align: center;
+	width: 60%;
+	margin: 10px auto;
+}
+.slide1 > article {
+	display: inline-block;
+	height: 60px;
+	width: 400px;
+	text-align: center;
+	border: 1px solid #0E8FAB;
+	background-color: #0E8FAB;
+}
+.slide1{
+	margin: 0 13px;
+}
+/*.slide1 > article > h1{
+	border: 1px solid #0E8FAB;*/
+}
+.slide1 > article > p{
+	border: 1px solid  #0E8FAB;
+} 
+.s1{
+	border: 1px solid #E9E9E9;
+	height: 295px;
+}
+.slide2 > article{
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #E9E9E9;
+    height: 310px;
+}
+.slide2{
+	margin: 10px;
+    margin-top: 100px;
+}
+.p{
+	border-bottom: 1px solid #E9E9E9;
+	background-color: #fff;
+    margin: 0;
+    padding: 16px;
+}
+ .show > article > p::after{
+ 	content: '>';
+ 	display: inline-block;
+ 	background-color: #000;
+ 	color: #FFF;
+ 	padding: 7px 15px;
+}
+.show{
+	height: 150px;
+}
+.upfoot{
+	display: inline-block;
+	width: 900px;
+	margin: 0 30px;
+	height: 198px;
+ 	border-left: 2px solid #0E8FAB;
+}
+.upfoot > h1::after{
+	content: 'Download now';
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	background-color: #0E8FAB;
+	padding: 10px;
+	text-align: center;
+	margin-left: 1000px;
+}
+#topbar > ul > li > ul > li >a{
+	display: block;
+	width: 120px;
+	background-color: #515151;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px 70px;
+	height: 5px;
+}
+#topbar > ul > li > ul > li >a:hover{
+	background-color: black;
+}
+.container2 > article{
+	display: inline-block;
+	width: 250px;
+	height:450px;
+	text-align: center;
+}
+.container2{
+	background-color: black;
+	margin: 0 130px;
+}
+.container2 > article > h1{
+	color: #fff;
+	border-bottom: 2px solid #0E8FAB;
+}
+.container2 > article > p{
+	color:#C3C3C3;
+}
